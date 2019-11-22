@@ -18,6 +18,7 @@ http://tool.chinaz.com/dns
 
 >>数据提交到仓库
 (常用命令)把文件添加到仓库 git add file.txt
+(常用命令)提交当前目录下所有内容 git add .
 (常用命令)把文件提交到仓库 git commit -m "注释信息"
 
 
@@ -34,7 +35,7 @@ http://tool.chinaz.com/dns
 
 回退到最近一次提交的版本 git checkout --FileName
 
-
+远程目录操作：
 (1)key生成   ssh-keygen -t rsa -C "邮箱地址"
 (2)从上述生成目录（C:\Users\Administrator\.ssh）中，获取公钥
 (3)将key挂在到github官网
@@ -43,10 +44,22 @@ http://tool.chinaz.com/dns
 (6)远程仓库内容拉到本地 git pull origin master --allow-unrelated-histories
 (7)将内容推到远程仓库 git push origin master
 
-从0开发
-进入目录
-远程库克隆到本地 git clone "远程库"
+进入目录，远程库克隆到本地 git clone "远程库"
 将不想上推的包写入到.ignore文件中
+
+(1)想合到哪个分支先通过git checkout (master名)进入哪个分支
+(2)通过git merge 分支名(待合并进来的分支名,branch名)
+
+
+分支操作：
+创建分支 git branch 分支名
+查看处于哪个分支 git branch 
+切换分支 git checkout 分支名
+创建并切换到分支 git checkout -b 分支名
+删除分支 
+
+
+
 
 
 
@@ -54,7 +67,7 @@ http://tool.chinaz.com/dns
 工作区，缓存区 | 版本区
 
 https://www.iqiyi.com/v_19rrcwjioo.html?videoIsFromQidan%3Ditemviewclkrec#curid=1022837300_d6a10c611a6a5201d226e2f276edbcbd
-
+https://www.iqiyi.com/v_19rrcwjlcg.html?videoIsFromQidan%3Ditemviewclkrec#curid=1022842300_225d8e0140d70f4a8c9f695ec880d72b
 
 
 
